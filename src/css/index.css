@@ -1,0 +1,454 @@
+/* body{
+	background: yellow;
+} */
+@charset "utf-8";
+/* CSS Document */
+/* css重置 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+body,html{
+	font:12px "微软雅黑",Arial;	/* 设置全局基础字号12px 字体微软雅黑 */
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;			/* 取消所有默认加粗的标签样式 */
+	font-size:100%;	
+}
+a{
+	text-decoration:none;		/* 取消a标签默认下划线 */
+}
+i,em{
+	font-style:normal;			/* 取消i,em默认倾斜 */
+}
+li{
+	list-style:none;			/* 取消列表默认项目符号 */
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{             /*万能清除浮动*/
+	content:" ";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.box img{
+	width: 100%;
+}
+/* header头部 */
+#header{
+	height: 35px;
+	background: #f2f2f2;
+}
+.inner{
+	height: 35px;
+	background: #f2f2f2;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+} 
+.font{
+	height: 35px;
+}
+.font a{
+	margin-right: 30px;
+	line-height: 35px;
+	color: #666666;
+}
+.font a i{
+	margin: 10px;
+}
+ #zhuce{
+	margin-left: 300px;
+}
+
+
+.log{
+	height: 110px;
+	line-height: 110px;
+	position: relative;
+}
+.log img{
+	display: block;
+}
+.log .img1{
+	float: left;
+}
+.log .img2{
+	margin: 15px 40px;
+	float: left;
+}
+.log .img3{
+	float: right;
+	margin-top: 40px;
+	margin-right: 160px;
+}
+.log input{
+	display: block;
+	float: left;
+	margin: 43px 0;
+	line-height: 18px;
+}
+.log .car{
+	float: right;
+	width: 90px;
+	height: 40px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top:35px;
+	right: 30px;
+}
+.log .car img{
+	margin-left: 10px;
+	margin-top: 9px;
+}
+.log .car i{
+	position: absolute;
+	top:-35px;
+	right: 15px;
+}
+/* 导航 */
+#inner{
+	height: 40px;
+	background: #0e0e0e;
+}
+.nav{
+	height: 40px;
+	background: #0e0e0e;
+}
+.nav ul{
+	float: left;
+}
+.nav ul li{
+	float: left;
+}
+.nav ul li a{
+	line-height: 40px;
+	color: #c8a985;
+	margin: 0 32px;
+}
+.nav ul li a:hover{
+	color: #fff;
+}
+.tu a{
+	position: relative;
+	overflow: hidden;
+	width: 234px;
+	height: 329px;
+	display: block;
+	float: left;
+	margin-right: 6px;
+}
+.tu a div{
+	position: absolute;
+	left: 30px;
+	top: 275px;
+}
+imglist{
+	height: 505px;
+}
+.imglist .list-group a img{
+	margin-right:2px;
+}
+/* 商场同款 */
+.main{
+	height: 675px{
+		
+	}0px;
+}
+.main ul{
+	height: 30px;
+}
+.main ul li{
+	float: left;
+	height: 30px;
+	width: 392px;
+	line-height: 30px;
+	text-align: center;
+	background: #999999;
+	margin: 0 4px;
+	margin-bottom: 8px;
+}
+.main ul li a{
+	height: 30px;
+	width: 392px;
+	color: #fff;
+	font-size: 14px;
+}
+.main ul li a:hover{
+	background: #000000;
+}
+.wrap{
+	height: 525px;
+	/* border: 1px solid red; */
+}
+.wrap .left{
+	width:364px ;
+	height: 512px;
+	float: left;
+	margin:1px 10px;
+	overflow: hidden;
+}
+.wrap .left img{
+	float: left;
+	margin-right: 10px;
+}
+.wrap .right{
+	/* float: right; */
+}
+.right .box1{
+	width: 250px;
+	height: 250px;
+	border: 1px solid #ccc;
+	float: left;
+	overflow: hidden;
+	margin: 0px 10px 8px 10px;
+	position: relative;
+}
+.right .box1 img{
+	display: block;
+	width: 250px;
+	height: 260px;
+}
+.right .box1 span{
+	margin-left:60px;
+	line-height: 20px;
+	position: absolute;
+}
+/* 购物中心 */
+.listTwo{
+	height: 175px;
+}
+.listTwo ul{
+	float: left;
+}
+.listTwo ul li{
+	float: left;
+	height: 50px;
+	width: 230px;
+	border: 1px solid #999999;
+	background: #999999;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 4px;
+	position: relative;
+	overflow: hidden; 
+}
+ .listTwo ul li div{
+	position: absolute;
+	/* top:-2px; */
+	left: -1px;
+	height: 40px;
+	width: 220px;
+	border: 5px solid white;
+	background: black;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 2px;
+	color: white;
+} 
+
+
+.listTwo ul li a{
+	color: #fff;
+}
+/* 箱包区域 */
+.boxs .box_log{
+	height: 64px;
+	width: 1200px;
+}
+.box_log img{
+	display: block;
+	float: left;
+}
+.box_log h2{
+	float: right;
+	line-height: 60px;
+	font-size: 16px;
+	margin-right: 5px;
+}
+.box_main{
+	height: 370px;
+}
+.box_list{
+	height: 368px;
+	width: 220px;
+	border: 1px solid #ccc;
+	float: left;
+	overflow: hidden;
+}
+.box_list ul{
+	height: 200px;
+	border: 1px dotted #ccc;
+}
+.box_list ul li a{
+	float: left;
+	width: 98px;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 10px;
+}
+.box_list img{
+	display: block;
+	width: 220px;
+	height: 168px;
+	
+}
+.box_main .box_center{
+	float: left;
+	margin-left: 12px;
+	width: 370px;
+	height: 370px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.box_main .box_right a{
+	float: left;
+	border: 1px solid #ccc;
+	margin: 0 5px;
+	margin-bottom: 5px;
+}
+.box_main .box_right a img{
+	width: 275px;
+	height: 177px;
+}
+.tw{
+	height: 120px;
+	border-bottom: 1px solid #ccc;
+}
+.tw .tt{
+	float: left;
+	width: 240px;
+	height: 120px;
+}
+.tw .tt img{
+	margin: 28px 5px;
+	display: block;
+	float: left;
+}
+.tw .tt span{
+	margin-top: 30px;
+}
+.tw .tt .weizi{
+	margin-top: 40px;
+	margin-left: 5px;
+}
+.tw .tt .weizi p a{
+	color: #2C2C2C;
+	font-size: 14px;
+}
+/* 底部 */
+.footer{
+	height: 485px;
+	/* background: #1f1513; */
+	background: url(../img/bg1.jpg) left bottom;
+}
+.footer .light{
+	height: 285px;
+}
+.list dl{
+	float: left;
+}
+.list dt{
+	width: 170px;
+	margin: 25px 0px;
+}
+.list dl dd{
+	line-height: 25px;
+}
+.footer .fone{
+	height: 66px;
+	padding: 0 450px;
+	padding-top: 280px;
+}
+.footer .fone a{
+	line-height: 66px;
+	color: #fff;
+	font-size: 14px;
+}
+.footer .ftwo{
+	height: 90px;
+	margin: 0 180px;
+}
+.ftwo a,p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 36px;
+}
+.fthree{
+	height: 44px;
+	margin: 0 450px;
+}
+/* 注册页面 */
+/* .wrap_logo{
+	height: 110px;
+	line-height: 110px;
+}
+.header_left{
+	float: left;
+	height: 110px;
+}
+.header_left span{
+	font-size: 20px;
+	float: right;
+	margin-left: 40px;
+	color: #ccc;
+}
+.header_right{
+	float: right;
+}
+.header_right img{
+	margin-right: 10px;
+}
+.zc{
+	position: relative;
+}
+.zc img{
+	width: 100%;
+	height: 350px;
+}
+.zc .inp{
+	position: absolute;
+	top:30px;
+	right: 100px;
+	width: 340px;
+	height: 300px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.inp h2{
+	text-align: center;
+	margin: 10px 0;
+	font-size: 20px;
+}
+.inp input{
+	height: 35px;
+	width: 270px;
+	margin: 10px 5px;
+}
+.inp i{
+	margin-left: 7px;
+	font-size: 16px;
+}
+.inp .sub{
+	margin-left: 49px;
+} 
+#checkbox{
+	width: 18px;
+	height: 18px;
+	margin-right:3px;
+	margin-top: 6px;
+} */
+/* 登录页面 */
+/* #checkbox2{
+	width: 18px;
+	height: 18px;
+	margin-right:5px;
+	margin-top: 6px;
+}
+.inp span{
+	margin-left: 110px;
+} */
